@@ -6,8 +6,6 @@ I know you all are working on your awesome Ruby projects. And many of you are ma
 
 #BuiltInRuby is the showcase of all ruby and rails projects. 
 
-If you feel comfortable sharing your project built in #Ruby and #Rails please comment with #BuiltInRuby.
-
 Thank you :)
 
 # Adding your Awesome Ruby Projects
