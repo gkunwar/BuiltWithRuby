@@ -8,6 +8,8 @@ source "http://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
+ruby '3.0.1'
+
 gem "jekyll"
 gem "rack"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -28,3 +30,5 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", :install_if => Gem.win_platform?
+
+gem "webrick", "~> 1.7"
