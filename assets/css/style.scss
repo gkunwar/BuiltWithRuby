@@ -11,9 +11,19 @@
 .is-active {
     font-weight: 600;
 }
-.navbar.is-black{
+.header{
   background-color: #36000E;
+  padding: 20px 0 50px 0;
+  img {
+    height: 86px;
+  }
+  &__text {
+    color: #FFF3F4;
+    font-weight: 24px;
+    margin-top: 16px;
+  }
 }
+
 .navbar-dropdown {
     border: none;
     right: 0;
