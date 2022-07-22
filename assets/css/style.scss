@@ -2,7 +2,9 @@
 ---
 
 @import "main.scss";
-
+body{
+  background-color: #FEF5F6;
+}
 
 #navbar {
     opacity: 0.95;
@@ -13,7 +15,7 @@
 }
 .header{
   background-color: #36000E;
-  padding: 20px 0 50px 0;
+  padding: 20px 0 150px 0;
   img {
     height: 86px;
   }
@@ -23,29 +25,38 @@
     margin-top: 16px;
   }
 }
-
-.navbar-dropdown {
-    border: none;
-    right: 0;
-    left: auto;
+:root {
+  counter-reset: masonry;
+}
+.masonry {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+  grid-auto-rows: min-content;
+  margin-top: -120px;
 }
 
-a.navbar-item:hover,
-.navbar-link:hover {
-    background-color: rgba($color: #fff, $alpha: 0.25) !important;
-    color: white !important;
+.masonry-item {
+  border-radius: 8px;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px -3px 28px rgba(121, 28, 18, 0.1);
 }
 
-a.navbar-item.is-active {
-    background-color: rgba($color: #fff, $alpha: 0.25) !important;
-    color: white !important;
-
-    &:hover {
-        background-color: rgba($color: #fff, $alpha: 0.25) !important;
-        color: grey;
-    }
+.masonry-item,
+.masonry-item img {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
 }
 
-.navbar-link:not(.is-arrowless)::after {
-    border-color: grey;
+.masonry-item:hover:after {
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, .75);
+}
+
+.masonry-item-name{
+  border-top: 1px solid #F4EDED;
+  color: #36000E;
 }
