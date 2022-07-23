@@ -1,53 +1,21 @@
-<nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
+<div class="header">
+  <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
     <div class="container">
-
-        <!-- logo or branding image on left side -->
-        <div class="navbar-brand">
-            <a class="navbar-item"
-                href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <strong>{{site.title}}</strong>
-            </a>
-            <div class="navbar-burger" data-target="navbar-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+      <div class="col-6 m-auto text-center">
+        <div class="navbar-brand ">
+          <a class="navbar-item has-text-centered "
+            href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
+            <img
+            src="{{site.baseurl}}/assets/images/Builtinruby_logo.svg"
+            alt="Gurzu menu"
+            />
+          </a>
         </div>
-
-        <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
-        <div class="navbar-menu has-background-black" id="navbar-menu">
-            <!-- navbar items | left side -->
-            <!-- <div class="navbar-start">
-            </div> -->
-            <!-- navbar items | right side -->
-            <div class="navbar-end">
-                <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
-                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
-                <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
-                    href="{{site.url}}{{site.baseurl}}/blog">PROJECTS</a>
-            </div>
-
-        </div>
+        <p class="text-center text-light header__text ">#BuiltinRuby is an inspiration resource showcasing totally rocking ruby app made by people from all over the world.</p>
+      </div>
     </div>
-</nav>
-<!-- Bulma Navbar JS -->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        /* Get all "navbar-burger" elements */
-        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-        /* Check if there are any navbar burgers */
-        if ($navbarBurgers.length > 0) {
-            /* Add a click event on each of them */
-            $navbarBurgers.forEach(function ($el) {
-                $el.addEventListener('click', function () {
-                    /* Get the target from the "data-target" attribute */
-                    var target = $el.dataset.target;
-                    var $target = document.getElementById(target);
-                    /* Toggle the class on both the "navbar-burger" and the "navbar-menu" */
-                    $el.classList.toggle('is-active');
-                    $target.classList.toggle('is-active');
-                });
-            });
-        }
-    });
-</script>
+  </nav>
+</div>
+<div class="container">
+  
+</div>
