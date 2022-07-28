@@ -1,21 +1,13 @@
-<section class="hero is-fullheight has-text-centered" id="hero">
-  <div class="hero-body">
-    <div class="container">
-   
-    </div>
-  </div>
-</section>
 <div class="container">
-
   <div class="masonry ">
-    {% for project in site.data.projects %}
+    {% for project in site.posts %}
       <div class="masonry-item">
-        <a href="{{project.link}}" class="d-block">
+        <a href="{{project.url}}" class="d-block">
           <img src="{{base.url}}
           {{project.image}}
           " alt="Masonry Brick #1" class="masonry-content">
           <div class="masonry-item-name p-3 bg-white font-weight-bold">
-            {{ project.name }}
+            {{ project.title }}
           </div>
         </a>
       </div>
