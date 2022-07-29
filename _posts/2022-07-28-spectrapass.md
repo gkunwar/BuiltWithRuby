@@ -7,5 +7,5 @@ technology: Ruby on Rails, React Native, MySQL
 available_on: Android, IOS
 type: Health
 permalink: /spectrapass/
-website_link: www.zapp.today.com/
+website_link: www.zapp.today/
 ---
