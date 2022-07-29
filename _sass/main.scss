@@ -14,7 +14,15 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-
+main{
+    min-height: calc(100vh - 330px); 
+}
+a {
+    text-decoration: none;
+}
+.project main{
+    min-height: calc(100vh - 220px); 
+}
 
 /* width */
 ::-webkit-scrollbar {
