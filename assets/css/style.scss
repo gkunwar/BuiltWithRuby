@@ -2,6 +2,7 @@
 ---
 
 @import "main.scss";
+@import "variable.scss";
 body{
   background-color: #FEF5F6;
 }
@@ -59,4 +60,10 @@ body{
 .masonry-item-name{
   border-top: 1px solid #F4EDED;
   color: #36000E;
+}
+
+.btn-sm{
+  border-radius: 50px;
+  font-size: 13px;
+  background-color: $brand-color;
 }

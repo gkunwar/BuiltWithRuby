@@ -1,0 +1,47 @@
+.project{
+  &__showcase{
+    margin-top: -150px !important;
+    border-radius: 8px;
+    box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.07);
+    padding: 30px !important;
+  }
+  &__industry {
+    color: $brand-color;
+    font-size: 12px;
+  }
+  &__name{
+    color: $brand-color-3;
+  }
+  &__image{
+    box-shadow: 0px -3px 28px rgba(121, 28, 18, 0.1);
+  }
+  &__description{
+    font-size: 14px;
+    color: #615455;
+  }
+  &__type{
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  &__label{
+    color: lighten(#615455, 15%);
+    font-size: 14px;
+  }
+  &__data{
+    color: $brand-color-3;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .btn-sm {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project{
+    &__body{
+      margin-top: 1rem;
+    }
+  }
+}
