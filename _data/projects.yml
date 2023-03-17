@@ -1,10 +1,10 @@
 - name: Zapp Today
-  image: /assets/images/projects/project-1.jpg
+  image: assets/images/projects/project-1.jpg
   link: /zapptoday.html
 - name: DeignerEX
   link:
-  image: /assets/images/projects/project-2.jpg
+  image: assets/images/projects/project-2.jpg
 
 - name: Spectrapass
   link:
-  image: /assets/images/projects/project-3.jpg
+  image: assets/images/projects/project-3.jpg
