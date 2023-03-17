@@ -4,7 +4,7 @@ markdown: kramdown
 # URL of the Site
 url: 'https://gkunwar.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 'BuiltInRuby'
+baseurl: '/BuiltInRuby'
 host: 0.0.0.0
 
 # Title of the Site
