@@ -14,7 +14,7 @@ Thank you :)
 
 ## Contributing
 
-If you have problems, please create a [GitHub Issue](/.github/ISSUE_TEMPLATE/bug-report.md).
+If you have problems, please create a [GitHub Issue](https://github.com/gkunwar/BuiltWithRuby/issues).
 
 Take a look at the [Contributing](CONTRIBUTING.md) document for
 instructions on setting up the repo on your machine, understanding the codebase,
