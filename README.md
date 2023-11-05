@@ -12,5 +12,16 @@ Thank you :)
 ## Send your project detail to this email
 ## Create new issue with label new project addition request
 
+## Contributing
+
+If you have problems, please create a [GitHub Issue](/.github/ISSUE_TEMPLATE/bug-report.md).
+
+Take a look at the [Contributing](CONTRIBUTING.md) document for
+instructions on setting up the repo on your machine, understanding the codebase,
+and creating a good pull request.
+
+
+Thank you, contributors!
+
 ## Manitainers
 - [Ganesh Kunwar](https://github.com/gkunwar)
