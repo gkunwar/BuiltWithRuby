@@ -2,13 +2,13 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'https://builtinruby.io'
+url: 'https://builtwithruby.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: ''
 host: 0.0.0.0
 
 # Title of the Site
-title: "#BuiltInRuby | Build In Ruby"
+title: "#BuiltWithRuby | Build With Ruby"
 # Description of the Site
 description: Let's make Ruby Great again.
 # URL of Image of the Site
