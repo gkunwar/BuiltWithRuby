@@ -40,9 +40,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-favicon:
-  source: /assets/images/favicon.png
-
 # Build settings
 plugins:
   - jekyll-admin
