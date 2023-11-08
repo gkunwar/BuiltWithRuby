@@ -8,7 +8,7 @@ source "http://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-ruby '3.2.2'
+ruby '3.1.2'
 
 gem "jekyll"
 gem "rack"
