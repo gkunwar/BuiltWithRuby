@@ -10,6 +10,8 @@ source "http://rubygems.org"
 
 ruby '3.2.2'
 
+gem "cowsay", "~> 0.3.0"
+
 gem "jekyll"
 gem "rack"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
