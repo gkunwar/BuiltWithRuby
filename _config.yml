@@ -12,11 +12,11 @@ title: "#BuiltWithRuby | Built With Ruby"
 # Description of the Site
 description: Let's make Ruby Great again.
 # URL of Image of the Site
-site-image: /assets/images/bwr-banner.png
+site-image: https://builtwithruby.com/assets/images/bwr-banner.png
 # Keywords of the Site
 site-keywords: Ruby, Rails, BuiltWithRuby
 # URL for the Image of custom Favicon
-favicon-url: /assets/images/favicon.ico
+favicon-url: https://builtwithruby.com/assets/images/favicon.ico
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
