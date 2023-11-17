@@ -9,4 +9,5 @@ available_on: Web
 type: Marketplace
 permalink: /designerex/
 website_link: https://designerex.com.au/
+group: project
 ---
