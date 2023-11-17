@@ -7,15 +7,14 @@
             href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
             <img
             src="{{site.baseurl}}/assets/images/builtwithRuby-logo.svg"
-            alt="Built In Ruby"
+            alt="Built With Ruby"
             />
           </a>
         </div>
-        <p class="text-center text-light header__text ">#BuiltWithRuby is an inspiration resource showcasing totally rocking ruby app made by people from all over the world.</p>
+        {% if page.layout == 'default' %}
+          <p class="text-center text-light header__text">#BuiltWithRuby is an inspiration resource showcasing totally rocking ruby app made by people from all overv the world.</p>
+        {% endif %}
       </div>
     </div>
   </nav>
-</div>
-<div class="container">
-  
 </div>

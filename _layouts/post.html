@@ -1,62 +1,37 @@
-<!DOCTYPE html>
-<html>
-{% include head.html %}
-<body class="project">
-  <div class="header">
-    <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
-      <div class="container">
-        <div class="col-6 m-auto text-center">
-          <div class="navbar-brand ">
-            <a class="navbar-item has-text-centered "
-              href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-              <img
-              src="{{site.baseurl}}/assets/images/builtwithRuby-logo.svg"
-              alt="Built In Ruby"
-              />
-            </a>
-          </div>
-        </div>
+---
+layout: default
+---
+<div class="container">
+  <div class="col-lg-7 col-md-10 col-sm-12 p-4 m-auto bg-white project__showcase">
+    <div class="row">
+      <div class="col-md-5">
+        <img src="{{ page.image }}" alt="" class="img-fluid project__image">
       </div>
-    </nav>
-  </div>
-  <main>
-    <div class="container">
-      <div class="col-lg-7 col-md-10 col-sm-12 p-4 m-auto bg-white project__showcase">
-        <div class="row">
-          <div class="col-md-5">
-            <img src="{{ page.image }}" alt="" class="img-fluid project__image">
-          </div>
-          <div class="col-md-7">
-            <div class="project__body">
-              <div class="d-flex justify-content-between">
-                <div class="project__type ">
-                  <div class="project__industry">{{ page.type }}</div>
-                  <h3 class="project__name">{{ page.title }}</h3>
-                </div>
-                <div class="">
-                  <a href="{{ page.website_link }}" target="_blank" class="btn btn-danger btn-sm btn-round">Visit Website</a>
-                </div>
-              </div>
-              <p class="project__description mt-2">
-                {{ page.description }}
-              </p>
-              <div class="project__technology mb-3">
-                <label class="project__label"> Technoloy</label><br>
-                <div class="project__data">{{ page.technology }}</div>
-              </div>
-              <div class="project__avaiable">
-                <label class="project__label"> Available on:</label><br>
-                <div class="project__data">{{ page.available_on }}</div>
-              </div>
+      <div class="col-md-7">
+        <div class="project__body">
+          <div class="d-flex justify-content-between">
+            <div class="project__type ">
+              <div class="project__industry">{{ page.type }}</div>
+              <h3 class="project__name">{{ page.title }}</h3>
             </div>
+            <div class="">
+              <a href="{{ page.website_link }}" target="_blank" class="btn btn-danger btn-sm btn-round">Visit Website</a>
+            </div>
+          </div>
+          <p class="project__description mt-2">
+            {{ page.description }}
+          </p>
+          <div class="project__technology mb-3">
+            <label class="project__label"> Technoloy</label><br>
+            <div class="project__data">{{ page.technology }}</div>
+          </div>
+          <div class="project__avaiable">
+            <label class="project__label"> Available on:</label><br>
+            <div class="project__data">{{ page.available_on }}</div>
           </div>
         </div>
       </div>
     </div>
-  </main>
-  <!-- <div class="container mt-5">
-    <div class="h5 text-center">Related Project</div>
-  </div> -->
-  {% include footer.html %}
-</body>
-</html>
+  </div>
+</div>
+  
