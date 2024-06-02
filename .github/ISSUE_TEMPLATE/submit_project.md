@@ -1,3 +1,12 @@
+---
+name: New Project Submit
+about: Request to add new Ruby Project
+title: ''
+labels: 'RubyProject'
+assignees: ''
+
+---
+
 **Name of Project**
 
 [Name of your project]
