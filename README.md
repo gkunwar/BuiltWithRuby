@@ -8,7 +8,7 @@ I know you all are working on your awesome Ruby projects. And many of you are ma
 
 Thank you :)
 
-# Adding your Awesome Ruby Projects
+# Add your Awesome Ruby Projects
 ## Create new issue with label new project addition request
 Here is [Issue template link](https://github.com/gkunwar/BuiltWithRuby/issues/new?template=submit_project.md)
 
