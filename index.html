@@ -4,13 +4,13 @@ group: home
 ---
 
 <div class="container">
-  <div class="masonry ">
+  <div class="masonry bwr-masonry">
     {% for project in site.posts %}
-      <div class="masonry-item">
-        <a href="{{project.url}}" class="d-block">
-          <img src="{{base.url}}
+      <div class="masonry-item showcase__item">
+        <a href="{{project.url}}" class="d-block showcase__item--inner" style="background-image: url('{{base.url}}{{project.image}}')" alt="{{ project.title }}" aria-label="{{ project.title }}" aria-role="link" aria-describedby="project-details-{{ project.id }}">
+          <!-- <img src="{{base.url}}
           {{project.image}}
-          " alt="{{ project.title }}" class="masonry-content">
+          " alt="{{ project.title }}" class="masonry-content"> -->
           <div class="masonry-item-name p-3 bg-white font-weight-bold">
             {{ project.title }}
           </div>

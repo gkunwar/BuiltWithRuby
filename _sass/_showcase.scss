@@ -1,13 +1,19 @@
 .project{
   &__showcase{
-    margin-top: -150px !important;
+    margin-top: -120px;
     border-radius: 8px;
     box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.07);
-    padding: 30px !important;
+    width: 100%;
+    padding: $padding-30;
+    @media (min-width: 992px) {
+      max-width: 91.66666667%;
+    }
+
   }
   &__industry {
     color: $brand-color;
     font-size: 12px;
+    margin-bottom: 4px;
   }
   &__name{
     color: $brand-color-3;
@@ -33,17 +39,22 @@
     font-weight: 500;
     font-size: 14px;
   }
-  .btn-sm {
-    font-size: 11px;
-  }
 }
-
-@media screen and (max-width: 767px) {
-  .project{
-    &__body{
-      margin-top: 1rem;
+.bwr-masonry{
+  .showcase{
+    &__item{
+      background-color: transparent;
+      &--inner{
+        height: 100%;
+        padding-top: 56.5%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
     }
-  }
+
+  }  
 }
 
 .btn{
