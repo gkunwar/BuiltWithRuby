@@ -8,7 +8,7 @@ source "http://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-ruby '3.2.2'
+ruby '3.1.1'
 
 gem "cowsay", "~> 0.3.0"
 
