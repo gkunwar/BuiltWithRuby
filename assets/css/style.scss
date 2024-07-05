@@ -58,12 +58,11 @@ body{
 }
 
 .masonry-item-name{
-  border-top: 1px solid #F4EDED;
-  color: #36000E;
-}
-
-.btn-sm{
-  border-radius: 50px;
-  font-size: 13px;
-  background-color: $brand-color;
+  border-top: 1px solid $brand-color-4;
+  color: $brand-color-3;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
