@@ -13,22 +13,14 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86_64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     google-protobuf (4.27.2-arm64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.27.2-x86_64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.27.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
-    jekyll (4.3.2)
+    jekyll (4.3.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -88,10 +80,6 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.77.5-arm64-darwin)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.5-x86_64-darwin)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.5-x86_64-linux-gnu)
-      google-protobuf (>= 3.25, < 5.0)
     sinatra (4.0.0)
       mustermann (~> 3.0)
       rack (>= 3.0.0, < 4)
@@ -111,18 +99,14 @@ GEM
     tilt (2.4.0)
     tzinfo (1.2.11)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2023.3)
+    tzinfo-data (1.2024.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
     wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
-  arm64-darwin-22
   arm64-darwin-23
-  x86_64-darwin-21
-  x86_64-darwin-23
-  x86_64-linux
 
 DEPENDENCIES
   cowsay (~> 0.3.0)
