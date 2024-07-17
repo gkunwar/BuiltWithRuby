@@ -4,7 +4,7 @@ Hello Rubyist,
 
 I know you all are working on your awesome Ruby projects. And many of you are maintaining awesome #Ruby projects.
 
-#BuiltWithRuby is the showcase of all ruby and rails projects. 
+[#BuiltWithRuby](https://builtwithruby.com) is the showcase of all ruby and rails projects. 
 
 Thank you :)
 
