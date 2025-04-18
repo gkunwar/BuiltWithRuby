@@ -12,6 +12,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Setup Ruby 3.1.1
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1.1
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
