@@ -42,6 +42,7 @@ plugins:
   - jekyll-admin
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-assets
 
 # Permalink
 # permalink: "blog/:title"
