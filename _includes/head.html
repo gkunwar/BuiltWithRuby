@@ -1,18 +1,18 @@
 <head>
-    {% include meta.html %}
-    <title>{{site.title}} | Built With Ruby</title>
-    <link rel="stylesheet" href="{{site.url}}/assets/css/application-common.css">
-    <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/builtwithRuby-logo.svg' | absolute_url }}{% endif %}" type="image/x-icon">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2KL4P15L2X"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <title>{{site.title}} | Built With Ruby</title>
+  <link rel="stylesheet" href="{{site.url}}/assets/css/application-common.css">
+  <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/builtwithRuby-logo.svg' | absolute_url }}{% endif %}" type="image/x-icon">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2KL4P15L2X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'G-2KL4P15L2X');
-    </script>
+    gtag('config', 'G-2KL4P15L2X');
+  </script>
+  {% include meta.html %}
 </head>
