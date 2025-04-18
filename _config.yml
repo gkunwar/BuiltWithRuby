@@ -34,7 +34,7 @@ spotify_username: /
 
 # SASS
 sass:
-  sass_dir: _sass
+  sass_dir: ./_sass
   style: compressed
 
 # Build settings
