@@ -34,13 +34,15 @@ spotify_username: /
 
 # SASS
 sass:
-  sass_dir: ./_sass
+  sass_dir: assets/css
   style: compressed
 
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-assets
 
 # Permalink
 # permalink: "blog/:title"
