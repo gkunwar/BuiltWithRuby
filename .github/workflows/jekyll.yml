@@ -17,14 +17,12 @@ jobs:
       with:
         ruby-version: 3.1.1
     - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll \
-        -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:4.2.0 /bin/bash -c "
-          chmod -R 777 /srv/jekyll && \
-          gem install bundler:2.3.24 && \
-          rbenv install 3.1.1 && \
-          rbenv global 3.1.1 && \
-          jekyll build --future
-        "
+    run: |
+      docker run \
+      -v ${{ github.workspace }}:/srv/jekyll \
+      -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+      jekyll/builder:4.2.0 /bin/bash -c "
+        chmod -R 777 /srv/jekyll && \
+        gem install bundler:2.3.24 && \
+        jekyll build --future
+      "
