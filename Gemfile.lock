@@ -14,12 +14,8 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.17.2-arm64-darwin)
-    ffi (1.17.2-x86_64-darwin)
     forwardable-extended (2.6.0)
     google-protobuf (4.30.2-arm64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.30.2-x86_64-darwin)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -94,8 +90,6 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.86.3-arm64-darwin)
       google-protobuf (~> 4.30)
-    sass-embedded (1.86.3-x86_64-darwin)
-      google-protobuf (~> 4.30)
     sinatra (4.1.1)
       logger (>= 1.6.0)
       mustermann (~> 3.0)
@@ -123,7 +117,6 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
-  x86_64-darwin-24
 
 DEPENDENCIES
   cowsay (~> 0.3.0)
@@ -141,4 +134,4 @@ RUBY VERSION
    ruby 3.1.1p18
 
 BUNDLED WITH
-   2.3.18
+   2.3.24
