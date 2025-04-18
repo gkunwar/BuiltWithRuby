@@ -21,4 +21,10 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:4.2.0 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        jekyll/builder:4.2.0 /bin/bash -c "
+          chmod -R 777 /srv/jekyll && \
+          gem install bundler:2.3.24 && \
+          rbenv install 3.1.1 && \
+          rbenv global 3.1.1 && \
+          jekyll build --future
+        "
