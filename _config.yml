@@ -41,6 +41,7 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-assets
 
 # Permalink
 # permalink: "blog/:title"
