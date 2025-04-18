@@ -39,7 +39,6 @@ sass:
 
 # Build settings
 plugins:
-  - jekyll-admin
   - jekyll-feed
   - jekyll-sitemap
 
@@ -52,13 +51,6 @@ compress_html:
 
 bootstrap:
   assets: true
-
-assets:
-  compress: true # Enable compression for assets
-  cache: true    # Enable caching for assets
-  digest: true   # Append a hash to asset filenames for cache-busting
-  sources:
-    - _assets
 
 # Exclude
 exclude:
