@@ -4,7 +4,7 @@ markdown: kramdown
 # URL of the Site
 url: 'https://builtwithruby.com'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: ''
+baseurl: ""
 host: 0.0.0.0
 
 # Title of the Site
@@ -50,6 +50,8 @@ plugins:
 compress_html:
   clippings: all
 
+bootstrap:
+  assets: true
 
 # Exclude
 exclude:
