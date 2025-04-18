@@ -14,8 +14,12 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2-x86_64-darwin)
     forwardable-extended (2.6.0)
     google-protobuf (4.30.2-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.30.2-x86_64-darwin)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -90,6 +94,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.86.3-arm64-darwin)
       google-protobuf (~> 4.30)
+    sass-embedded (1.86.3-x86_64-darwin)
+      google-protobuf (~> 4.30)
     sinatra (4.1.1)
       logger (>= 1.6.0)
       mustermann (~> 3.0)
@@ -109,14 +115,15 @@ GEM
     tilt (2.6.0)
     tzinfo (1.2.11)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2024.1)
+    tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
-    wdm (0.1.1)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
   arm64-darwin-23
+  x86_64-darwin-24
 
 DEPENDENCIES
   cowsay (~> 0.3.0)
